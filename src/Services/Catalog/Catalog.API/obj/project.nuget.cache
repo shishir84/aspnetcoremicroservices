@@ -1,15 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "0h0LgTbaDBg/lX8XFtBVIqcgrUyd2A2gx31lic0bi1a4u0VsiK3ok+ymxmPJMmrQI9aG6aPuZ2dJh1sL2dbQew==",
+  "dgSpecHash": "ADdy9Mg/4+kWQSg59iHYHrxF65K53K1O9zQ5Yl3qLA4LgXTRT8enag2S+0FFsrBoNbGSgXbMRAfCkdNACqQ4Ag==",
   "success": true,
   "projectFilePath": "/home/shishir/projects/aspnetcoremicroservices/src/Services/Catalog/Catalog.API/Catalog.API.csproj",
   "expectedPackageFiles": [
+    "/home/shishir/.nuget/packages/dnsclient/1.4.0/dnsclient.1.4.0.nupkg.sha512",
     "/home/shishir/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/shishir/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "/home/shishir/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/shishir/.nuget/packages/mongodb.bson/2.13.0/mongodb.bson.2.13.0.nupkg.sha512",
+    "/home/shishir/.nuget/packages/mongodb.driver/2.13.0/mongodb.driver.2.13.0.nupkg.sha512",
+    "/home/shishir/.nuget/packages/mongodb.driver.core/2.13.0/mongodb.driver.core.2.13.0.nupkg.sha512",
+    "/home/shishir/.nuget/packages/mongodb.libmongocrypt/1.2.1/mongodb.libmongocrypt.1.2.1.nupkg.sha512",
+    "/home/shishir/.nuget/packages/sharpcompress/0.23.0/sharpcompress.0.23.0.nupkg.sha512",
     "/home/shishir/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "/home/shishir/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
     "/home/shishir/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "/home/shishir/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "/home/shishir/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "/home/shishir/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/home/shishir/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "/home/shishir/.nuget/packages/system.text.encoding.codepages/4.5.1/system.text.encoding.codepages.4.5.1.nupkg.sha512"
   ],
   "logs": []
 }
