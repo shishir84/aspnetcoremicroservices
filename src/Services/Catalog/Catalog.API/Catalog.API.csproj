@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <!-- <TargetLatestRuntimePatch>true</TargetLatestRuntimePatch> -->
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+    <OutputType>Exe</OutputType>
   </PropertyGroup>
 
   <ItemGroup>
