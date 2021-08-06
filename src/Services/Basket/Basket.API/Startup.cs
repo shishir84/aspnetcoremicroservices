@@ -30,8 +30,8 @@ namespace Basket.API
              // Redis Configuration
             services.AddStackExchangeRedisCache(options =>
             {
-                //options.Configuration = Configuration.GetValue<string>("CacheSettings:ConnectionString");
-                options.Configuration =  "localhost:6379";
+                options.Configuration = Configuration.GetValue<string>("CacheSettings:ConnectionString");
+                //options.Configuration =  "localhost:6379";
                 
             });
             
