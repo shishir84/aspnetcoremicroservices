@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qb4aWNn5X5SGfFIUmv2g7CyMBq4BXykEn5XTpAWL75vPu8n6IHdMWesTXG/5Onvz+J3OP6a4BX7MxpojfDteVQ==",
+  "success": true,
+  "projectFilePath": "/home/shishir/projects/aspnetcoremicroservices/src/Services/Discount/Discount.API/Discount.API.csproj",
+  "expectedPackageFiles": [
+    "/home/shishir/.nuget/packages/dapper/2.0.90/dapper.2.0.90.nupkg.sha512",
+    "/home/shishir/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/shishir/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/shishir/.nuget/packages/npgsql/5.0.7/npgsql.5.0.7.nupkg.sha512",
+    "/home/shishir/.nuget/packages/polly/7.2.2/polly.7.2.2.nupkg.sha512",
+    "/home/shishir/.nuget/packages/swashbuckle.aspnetcore/5.6.3/swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "/home/shishir/.nuget/packages/swashbuckle.aspnetcore.swagger/5.6.3/swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "/home/shishir/.nuget/packages/swashbuckle.aspnetcore.swaggergen/5.6.3/swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "/home/shishir/.nuget/packages/swashbuckle.aspnetcore.swaggerui/5.6.3/swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "/home/shishir/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
