@@ -12,6 +12,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Basket.API.Repositories;
+using Basket.API.GrpcServices;
+using Discount.Grpc.Protos;
 
 namespace Basket.API
 {
@@ -30,11 +32,16 @@ namespace Basket.API
              // Redis Configuration
             services.AddStackExchangeRedisCache(options =>
             {
-                options.Configuration = Configuration.GetValue<string>("CacheSettings:ConnectionString");
-                //options.Configuration =  "localhost:6379";
+                //options.Configuration = Configuration.GetValue<string>("CacheSettings:ConnectionString");
+                options.Configuration =  "http://10.0.2.15:6379";
                 
             });
             
+            // Grpc Configuration
+            services.AddGrpcClient<DiscountProtoService.DiscountProtoServiceClient>
+                        (o => o.Address = new Uri("https://localhost:5008"));
+            services.AddScoped<DiscountGrpcService>();
+
             services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddControllers();
             services.AddSwaggerGen(c =>

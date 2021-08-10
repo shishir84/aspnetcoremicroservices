@@ -10,11 +10,11 @@
         "projectUniqueName": "/home/shishir/projects/aspnetcoremicroservices/src/Services/Basket/Basket.API/Basket.API.csproj",
         "projectName": "Basket.API",
         "projectPath": "/home/shishir/projects/aspnetcoremicroservices/src/Services/Basket/Basket.API/Basket.API.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/shishir/.nuget/packages/",
         "outputPath": "/home/shishir/projects/aspnetcoremicroservices/src/Services/Basket/Basket.API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/shishir/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -38,6 +38,22 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AspNetCore.HealthChecks.Redis": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.35.0, )"
+            },
             "Microsoft.Extensions.Caching.StackExchangeRedis": {
               "target": "Package",
               "version": "[5.0.1, )"
